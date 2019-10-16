@@ -1,6 +1,11 @@
-Instructions for compiling and running : 
+## Prerequisites:
+1. Flex
+2. Bison
+3. GCC
 
-1. Run the command :  make
+## Instructions for compiling and running : 
+
+1. Run the command:  make
 2. Now for any file use the following command
 	./tinyc filename -d(y/n) -s(2 digit number)
 	
@@ -25,7 +30,7 @@ Instructions for compiling and running :
 	b) To clean tests use : make cleantests
 	
 
-Shortcomings and/or known bugs:
+## Shortcomings and/or known bugs:
 
 In general, all instructions given in the assignment has been tried to be followed.
 The following bugs are known:
@@ -35,7 +40,7 @@ The following bugs are known:
 4. No optimization of the code generated is done
 
 
-General Comments: 
+## General Comments: 
 
 1. The code is mostly written with well named varaibles and functions making it self explanatory and hence comments are not required in such cases
 2. For passing parameters, 6 are passed through registers and rest through stack as the convention of x86_64 specifies.
@@ -43,4 +48,3 @@ General Comments:
 4. For including the library declarations, temporary file is generated with the decalarations included.
 5. A lot of code is also modified/added in ass6_13CS10060_translator.cxx as was required and moving it to ass6_13CS10060_target_translator.cxx would not have been advisable.
 
-====================================================END=====================================================
